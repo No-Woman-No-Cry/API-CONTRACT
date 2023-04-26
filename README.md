@@ -1,1 +1,1 @@
-Joob Seeker API Contract
+Joob Seeker API Contract Documentation
