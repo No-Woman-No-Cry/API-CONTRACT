@@ -67,7 +67,7 @@
     {
       "uuid": "0f714ba4-2310-4f3e-a3dd-1efa8986ee88",
       "name": "Main Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
