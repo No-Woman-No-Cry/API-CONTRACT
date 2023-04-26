@@ -1,0 +1,1489 @@
+{
+  "uuid": "9419accb-2101-4d05-a70b-81721ea6d358",
+  "lastMigration": 27,
+  "name": "Joob seeker api",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [
+    {
+      "uuid": "3f917098-4de6-4ea5-b478-c8a7f69a2cca",
+      "name": "Joob Seeker",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "folder",
+          "uuid": "426b9120-51c1-4823-8fd2-d7843a420429"
+        },
+        {
+          "type": "folder",
+          "uuid": "fb296420-d264-4de9-a2fe-02fac5cefe06"
+        },
+        {
+          "type": "folder",
+          "uuid": "0f714ba4-2310-4f3e-a3dd-1efa8986ee88"
+        },
+        {
+          "type": "folder",
+          "uuid": "c80f29e0-cc90-4880-95d5-88845ae05a08"
+        },
+        {
+          "type": "folder",
+          "uuid": "c3af5a1d-6a85-4664-86bc-8cc7491e24a8"
+        }
+      ]
+    },
+    {
+      "uuid": "426b9120-51c1-4823-8fd2-d7843a420429",
+      "name": "Authenctication Page",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "folder",
+          "uuid": "a048fa96-7c7b-4ded-8913-c02c49e7575f"
+        },
+        {
+          "type": "folder",
+          "uuid": "393280ab-c62a-4c92-b0bc-5764f398f99d"
+        }
+      ]
+    },
+    {
+      "uuid": "fb296420-d264-4de9-a2fe-02fac5cefe06",
+      "name": "Profile Page",
+      "collapsed": true,
+      "children": [
+        {
+          "type": "folder",
+          "uuid": "27947ae5-de14-450c-8ebf-a096beff6c96"
+        },
+        {
+          "type": "folder",
+          "uuid": "48980e14-a858-4119-b89d-6cfd4c49ecbb"
+        }
+      ]
+    },
+    {
+      "uuid": "0f714ba4-2310-4f3e-a3dd-1efa8986ee88",
+      "name": "Main Page",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "folder",
+          "uuid": "0aab6fba-50df-45ea-9e58-9c974693cdb5"
+        },
+        {
+          "type": "folder",
+          "uuid": "655f363c-0e3c-4616-9850-91f597d775a0"
+        },
+        {
+          "type": "folder",
+          "uuid": "7cd1686a-7fad-42d0-ab10-0ecd6588e047"
+        }
+      ]
+    },
+    {
+      "uuid": "c80f29e0-cc90-4880-95d5-88845ae05a08",
+      "name": "Companies List Page",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "ca64cead-9e29-4e75-a41a-4557e4bcde76"
+        },
+        {
+          "type": "route",
+          "uuid": "1a5e39c9-3f67-4178-97df-cb57ec11d99d"
+        }
+      ]
+    },
+    {
+      "uuid": "a048fa96-7c7b-4ded-8913-c02c49e7575f",
+      "name": "Register",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "11ff07ed-899b-4b43-9075-0cc78c0f9b2a"
+        }
+      ]
+    },
+    {
+      "uuid": "393280ab-c62a-4c92-b0bc-5764f398f99d",
+      "name": "Login",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "9a453037-fd42-46f5-b07c-eefb93fc0c2f"
+        }
+      ]
+    },
+    {
+      "uuid": "27947ae5-de14-450c-8ebf-a096beff6c96",
+      "name": "Basic Info",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "e5d55290-31fc-410b-889d-7cd761614a19"
+        },
+        {
+          "type": "route",
+          "uuid": "89c1fd4f-c5cb-436b-8f5a-d79766476e29"
+        }
+      ]
+    },
+    {
+      "uuid": "48980e14-a858-4119-b89d-6cfd4c49ecbb",
+      "name": "Education",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "13700627-176b-40bb-a5fe-dca1f08a9bd2"
+        },
+        {
+          "type": "route",
+          "uuid": "275fe5db-367d-4b4a-91b9-a4d6c1317462"
+        },
+        {
+          "type": "route",
+          "uuid": "761af41a-7218-4fff-bd61-33f6d2123cf0"
+        },
+        {
+          "type": "route",
+          "uuid": "3db4654b-beb5-42eb-bcdf-b202a96922cf"
+        }
+      ]
+    },
+    {
+      "uuid": "7cd1686a-7fad-42d0-ab10-0ecd6588e047",
+      "name": "Sort By Category, Search or Filter",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "9e4adda6-fd4e-4828-97bc-e33f43591a55"
+        }
+      ]
+    },
+    {
+      "uuid": "655f363c-0e3c-4616-9850-91f597d775a0",
+      "name": "Categories Card",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "8485e37b-e812-4746-9ca2-b86841da8ef7"
+        }
+      ]
+    },
+    {
+      "uuid": "0aab6fba-50df-45ea-9e58-9c974693cdb5",
+      "name": "Get All Jobs In First View",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "634bf560-1b2d-4873-b4b0-707091cd410f"
+        }
+      ]
+    },
+    {
+      "uuid": "c3af5a1d-6a85-4664-86bc-8cc7491e24a8",
+      "name": "Detail Job Page",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "ff0546de-d500-4ef4-a385-c434d25c5c77"
+        },
+        {
+          "type": "route",
+          "uuid": "60e36d34-f6a1-41de-98da-bba85fcc378d"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "uuid": "11ff07ed-899b-4b43-9075-0cc78c0f9b2a",
+      "type": "http",
+      "documentation": "Halaman ini untuk registrasi user.",
+      "method": "post",
+      "endpoint": "auth/register",
+      "responses": [
+        {
+          "uuid": "7cf95368-6d97-4be3-81f6-35f6517171d5",
+          "body": "{\n  \"code\": 201,\n  \"succcess\": true,\n  \"message\": \"Account has been added!\"\n}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "name",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "1c4c6a02-063a-46a1-b53f-1f4dc2a3b0f9",
+          "body": "{\n  \"code\": 400,\n  \"success\": false,\n  \"message\": \"Email cant be null, atau Password must 8 character\"\n}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "cd90e518-f606-4f1e-afe7-0f5871b5c938",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "9a453037-fd42-46f5-b07c-eefb93fc0c2f",
+      "type": "http",
+      "documentation": "Halaman ini untuk login user.",
+      "method": "post",
+      "endpoint": "auth/login",
+      "responses": [
+        {
+          "uuid": "945f16d9-1324-4338-ab0f-4fd3c7428fe8",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Login Successfully\",\n  \"data\": {\n    \"user_id\": \"1234\",\n    \"name\": \"John Doe\",\n    \"email\": \"johndoe@example.com\",\n    \"profile_id\": \"589743\",\n    \"token\": \"abcdefg1234567\"\n  }\n\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "c786438d-afa8-4b69-a505-7a0fb03467e4",
+          "body": "{\n  \"code\": 400,\n  \"success\": false,\n  \"message\": \"Wrong Email or Password\"\n}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "8ab55d12-3991-445c-8b4b-bbe5b0bf67ce",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "e5d55290-31fc-410b-889d-7cd761614a19",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "profile/basic/:profile_id",
+      "responses": [
+        {
+          "uuid": "17344910-4647-4e47-8aab-b04ec5038d9f",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Basic Info Fetched\",\n  \"data\": {\n    \"email\": \"johndoe@mail.com\",\n    \"name\": \"john doe\",\n    \"whatsapp_number\": \"6534389587445\",\n    \"linkedin_url\": \"https://linkedin.com/hjghjfkt5894\",\n    \"cv_url\": \"https://cvku.com\",\n    \"portofolio_url\": \"https://portofolio.com\"\n  }\n\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "f819a7a2-48dd-4662-a83a-fc6f074188ac",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "4836bbdc-c5a0-4851-8133-d93a7baa0310",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "89c1fd4f-c5cb-436b-8f5a-d79766476e29",
+      "type": "http",
+      "documentation": "",
+      "method": "put",
+      "endpoint": "profile/basic/:profile_id",
+      "responses": [
+        {
+          "uuid": "359a4c4b-3281-406e-8f65-fb7c5ba128fe",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Basic Info Updated\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "name",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "whatsapp_number",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "linkedin_url",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "cv_url",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "portofolio_url",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "4f2f625e-7032-430a-8449-a78e929a2c85",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "d4a18a3e-bcd3-410b-b5b1-c95b0b176f12",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "13700627-176b-40bb-a5fe-dca1f08a9bd2",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "profile/education/:profile_id",
+      "responses": [
+        {
+          "uuid": "18be8462-4fb7-4b92-a5ef-635e46c8d267",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Education Info Fetched\",\n  \"data\": [\n    {\n      \"education_id\": 1,\n      \"name\": \"Universitas London\",\n      \"degree\": \"S1\",\n      \"major\": \"Teknik Elektro\",\n      \"start\": 2020,\n      \"end\": 2024\n    },\n    {\n      \"education_id\": 19,\n      \"name\": \"Universitas German\",\n      \"degree\": \"S2\",\n      \"major\": \"Teknik Elektro dan Informatika\",\n      \"start\": 2025,\n      \"end\": 2027\n    }\n  ]\n\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "8fd48f6e-0262-4978-aeb1-2360d7d577c7",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "8629c921-b22f-4751-ade6-f05375907dcd",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "275fe5db-367d-4b4a-91b9-a4d6c1317462",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "profile/education/:profile_id",
+      "responses": [
+        {
+          "uuid": "928ddd73-4ff1-4e84-b442-f065e9d5624a",
+          "body": "{\n  \"code\": 201,\n  \"succcess\": true,\n  \"message\": \"Education Added\"\n}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "8ca29f0d-d352-4cbd-8dc9-eaef42ad267b",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "4ccd7437-4574-46a5-8399-b587c9a9db4d",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "761af41a-7218-4fff-bd61-33f6d2123cf0",
+      "type": "http",
+      "documentation": "",
+      "method": "put",
+      "endpoint": "profile/education/:profile_id",
+      "responses": [
+        {
+          "uuid": "b116bc79-b1e4-459c-9074-e2cb2028ac6f",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Education Updated\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "education_id",
+              "value": "1",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "name",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "degree",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "major",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "start",
+              "value": "2020",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "end",
+              "value": "2024",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "220e149f-5859-4acb-8d10-bf0bab332c3a",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "01f95d23-2633-4f14-8e5c-40646d3d033b",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "3db4654b-beb5-42eb-bcdf-b202a96922cf",
+      "type": "http",
+      "documentation": "",
+      "method": "delete",
+      "endpoint": "profile/education/:profile_id",
+      "responses": [
+        {
+          "uuid": "ec91ec98-7cc5-4e50-a03b-4c336e47277a",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Education Deleted\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "education_id",
+              "value": "1",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "67081736-926a-46c6-aa41-f494493fe69f",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "cadffcf3-76f1-4967-ac24-eac5ba0c64f9",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "9e4adda6-fd4e-4828-97bc-e33f43591a55",
+      "type": "http",
+      "documentation": "Query string atau (  contoh : /main/jobs?searchJob  ) itu bisa ada atau tidak, terserah, referensi useDeall",
+      "method": "get",
+      "endpoint": "main/jobs",
+      "responses": [
+        {
+          "uuid": "09b6f02c-d68e-45d5-9066-0bc455a6a9b0",
+          "body": "{\n  \"code\": 200,\n  \"success\": true,\n  \"message\": \"Jobs Fetched\",\n  \"data\": [\n    {\n      \"page\": 1,\n      \"total_pages\": 4,\n      \"total_jobs\": 20,\n      \"jobs\": [\n        {\n          \"id\": 1,\n          \"job_title\": \"Software Engineer\",\n          \"company_name\": \"PT XYZ Technology\",\n          \"location\": \"Jakarta\",\n          \"job_type\": \"Full-time\",\n          \"salary\": \"Rp 15.000.000\",\n          \"work_location\": \"On-site\"\n        },\n        {\n          \"id\": 2,\n          \"job_title\": \"Digital Marketing Specialist\",\n          \"company_name\": \"PT ABC Media\",\n          \"location\": \"Bandung\",\n          \"job_type\": \"Part-time\",\n          \"salary\": \"Rp 7.500.000\",\n          \"work_location\": \"Remote\"\n        },\n        {\n          \"id\": 3,\n          \"job_title\": \"Graphic Designer\",\n          \"company_name\": \"PT QWE Creative\",\n          \"location\": \"Surabaya\",\n          \"job_type\": \"Freelance\",\n          \"salary\": \"Rp 10.000.000\",\n          \"work_location\": \"On-site\"\n        },\n        {\n          \"id\": 4,\n          \"job_title\": \"Account Manager\",\n          \"company_name\": \"PT DEF Solutions\",\n          \"location\": \"Jakarta\",\n          \"job_type\": \"Full-time\",\n          \"salary\": \"Rp 12.000.000\",\n          \"work_location\": \"On-site\"\n        },\n        {\n          \"id\": 5,\n          \"job_title\": \"Social Media Specialist\",\n          \"company_name\": \"PT Multiverse One\",\n          \"location\": \"Surabaya\",\n          \"job_type\": \"Internship\",\n          \"salary\": \"Negotiable\",\n          \"work_location\": \"On-site\"\n        }\n      ]\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "searchJob",
+              "value": "ini keyword search",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "jobType",
+              "value": "full-time|part-time|internship|freelance",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "minimumSalary",
+              "value": "1000000",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "maximumSalary",
+              "value": "70000000",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "workSalary",
+              "value": "onsite|hybird|remo",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "categoryId",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "limit",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "6464bd22-32fc-4b27-ab6e-b362e947f491",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "520bd877-357a-4db7-92d5-91296a8c817d",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "8485e37b-e812-4746-9ca2-b86841da8ef7",
+      "type": "http",
+      "documentation": "Ini untuk fetch category card",
+      "method": "get",
+      "endpoint": "main/categories",
+      "responses": [
+        {
+          "uuid": "4489955d-4466-45d0-818a-13c62d4afa2f",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Categories Fetched\",\n  \"data\": [\n    {\n      \"id\": 1,\n      \"category_name\": \"Data & Product Management\"\n    },\n    {\n      \"id\": 2,\n      \"category_name\": \"Business Ops & Development\"\n    },\n    {\n      \"id\": 3,\n      \"category_name\": \"Design & Creative\"\n    },\n    {\n      \"id\": 4,\n      \"category_name\": \"Marketing & Sales\"\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "41cf8ad4-b91d-4b16-9873-99ac6b9af48b",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "5adfd069-a87c-44f5-92d0-915cd8d776e3",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "634bf560-1b2d-4873-b4b0-707091cd410f",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "main/jobs",
+      "responses": [
+        {
+          "uuid": "418268fc-d087-4b4c-a9a8-3bf37515ba07",
+          "body": "{\n  \"code\": 200,\n  \"success\": true,\n  \"message\": \"Jobs Fetched\",\n  \"data\": [\n    {\n      \"page\": 1,\n      \"total_pages\": 4,\n      \"total_jobs\": 20,\n      \"jobs\": [\n        {\n          \"id\": 1,\n          \"job_title\": \"Software Engineer\",\n          \"company_name\": \"PT XYZ Technology\",\n          \"location\": \"Jakarta\",\n          \"job_type\": \"Full-time\",\n          \"salary\": \"Rp 15.000.000\",\n          \"work_location\": \"On-site\"\n        },\n        {\n          \"id\": 2,\n          \"job_title\": \"Digital Marketing Specialist\",\n          \"company_name\": \"PT ABC Media\",\n          \"location\": \"Bandung\",\n          \"job_type\": \"Part-time\",\n          \"salary\": \"Rp 7.500.000\",\n          \"work_location\": \"Remote\"\n        },\n        {\n          \"id\": 3,\n          \"job_title\": \"Graphic Designer\",\n          \"company_name\": \"PT QWE Creative\",\n          \"location\": \"Surabaya\",\n          \"job_type\": \"Freelance\",\n          \"salary\": \"Rp 10.000.000\",\n          \"work_location\": \"On-site\"\n        },\n        {\n          \"id\": 4,\n          \"job_title\": \"Account Manager\",\n          \"company_name\": \"PT DEF Solutions\",\n          \"location\": \"Jakarta\",\n          \"job_type\": \"Full-time\",\n          \"salary\": \"Rp 12.000.000\",\n          \"work_location\": \"On-site\"\n        },\n        {\n          \"id\": 5,\n          \"job_title\": \"Social Media Specialist\",\n          \"company_name\": \"PT Multiverse One\",\n          \"location\": \"Surabaya\",\n          \"job_type\": \"Internship\",\n          \"salary\": \"Negotiable\",\n          \"work_location\": \"On-site\"\n        }\n      ]\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "limit",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "8db6a101-6679-422c-bb56-df358af5d923",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "462c675f-fe25-4a1d-8713-81ac5da31d33",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "ca64cead-9e29-4e75-a41a-4557e4bcde76",
+      "type": "http",
+      "documentation": "Fetch basic info dari companies",
+      "method": "get",
+      "endpoint": "companies",
+      "responses": [
+        {
+          "uuid": "df0f5786-1078-4f0c-a858-72cc6a57bd6e",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Companies Fetched\",\n  \"data\": [\n    {\n      \"id\": 1,\n      \"company_name\": \"Jakmal.com\",\n      \"industry\": \"Information Technology\",\n      \"job_total\": 10,\n      \"icon\": \"https://cdn.sejutacita.id/6257995459bce60014f74cd0/Others/351341ac-17ca-4d19-88ae-27af96f6aaf4.png\"\n    },\n    {\n      \"id\": 2,\n      \"company_name\": \"ABC Corp\",\n      \"industry\": \"Finance\",\n      \"job_total\": 4,\n      \"icon\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\"\n    },\n    {\n      \"id\": 3,\n      \"company_name\": \"XYZ Inc\",\n      \"industry\": \"Healthcare\",\n      \"job_total\": 0,\n      \"icon\": \"https://cdn.sejutacita.id/64368dac5c41530013236a8d/JobPortalCompanyLogo/82ddb4a7-1841-4ba8-9da1-98544860a966.jpeg\"\n    },\n    {\n      \"id\": 4,\n      \"company_name\": \"Green Solutions\",\n      \"industry\": \"Environmental Services\",\n      \"job_total\": 9,\n      \"icon\": \"https://cdn.sejutacita.id/63983cf268e6b200152ce01f/JobPortalCompanyLogo/b12433e9-a229-46a9-9361-8d6f4f56f5e0.png\"\n    },\n    {\n      \"id\": 5,\n      \"company_name\": \"123 Industries\",\n      \"industry\": \"Manufacturing\",\n      \"job_total\": 0,\n      \"icon\": \"https://cdn.sejutacita.id/6447850029d98e0013aeb116/JobPortalCompanyLogo/12f2e62b-ba1c-485c-823f-1557dcc517a1.png\"\n    },\n    {\n      \"id\": 6,\n      \"company_name\": \"Sunrise Co\",\n      \"industry\": \"Hospitality\",\n      \"job_total\": 0,\n      \"icon\": \"https://cdn.sejutacita.id/64476780bcd1810013e5bf9b/JobPortalCompanyLogo/a314cfda-08fb-4826-944f-2ebec97e2533.jpg\"\n    },\n    {\n      \"id\": 7,\n      \"company_name\": \"Blue Ocean Corp\",\n      \"industry\": \"Shipping\",\n      \"job_total\": 10,\n      \"icon\": \"https://cdn.sejutacita.id/643e0ad3bc64b100130e2116/JobPortalCompanyLogo/70d256bf-1491-453e-80ac-e1379d71f1ab.jpg\"\n    },\n    {\n      \"id\": 8,\n      \"company_name\": \"Great Minds Ltd\",\n      \"industry\": \"Education\",\n      \"job_total\": 19,\n      \"icon\": \"https://cdn.sejutacita.id/6439012a47397f0013ebd7be/JobPortalCompanyLogo/a4d83ed6-30a6-4b4c-9311-eaaceeb54341.png\"\n    },\n    {\n      \"id\": 9,\n      \"company_name\": \"Petal Gardens\",\n      \"industry\": \"Landscaping\",\n      \"job_total\": 0,\n      \"icon\": \"https://cdn.sejutacita.id/63983cf268e6b200152ce01f/JobPortalCompanyLogo/19773249-b7ab-4b3f-9528-ff24d91d0d62.png\"\n    },\n    {\n      \"id\": 10,\n      \"company_name\": \"Silver Lining Inc\",\n      \"industry\": \"Consulting\",\n      \"job_total\": 10,\n      \"icon\": \"https://cdn.sejutacita.id/642e6be54d01da0013b066c1/JobPortalCompanyLogo/e9f04d81-04d9-45fa-9db6-9d90874b8fb4.jpeg\"\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "2bb2c70f-6a3a-4ab7-a9bd-021c93ff293d",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "6b8e438b-e63b-426c-85a0-c416b3b75cb3",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "1a5e39c9-3f67-4178-97df-cb57ec11d99d",
+      "type": "http",
+      "documentation": "Fetch basic info dari companies",
+      "method": "get",
+      "endpoint": "companies/:id",
+      "responses": [
+        {
+          "uuid": "2c0bde2a-c055-465e-9e65-33c1a197e4f5",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Company Fetched\",\n  \"data\": {\n    \"id\": 1,\n    \"company_name\": \"Praktis\",\n    \"company_logo\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\",\n    \"company_description\": \"Praktis is an end to end supply chain startup that helps brands focus on their core competencies with reliable technology and a data powered platform for seamless business operation.\",\n    \"insight\": {\n      \"industry\": \"Transportation, Logistics, Supply Chain And Storage\",\n      \"location\": \"Jakarta Selatan, Indonesia\",\n      \"company_size\": \"> 100 employees\",\n      \"working_place\": \"Hybird\",\n      \"website\": \"https://www.praktis.co\"\n    },\n    \"benefits\": [\n      {\n        \"id\": 1,\n        \"name\": \"Dental Insurance\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/dentalInsurance.png\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"THR / Bonus system\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Competitive Salary\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Period Leave\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Casual Dress Code\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/casualDressCode.png\"\n      },\n      {\n        \"id\": 6,\n        \"name\": \"Company Outings\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/companyOutings.png\"\n      },\n      {\n        \"id\": 7,\n        \"name\": \"Paid Sick Days\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/paidSickDays.png\"\n      }\n    ],\n    \"jobs\": [\n      {\n        \"id\": 1,\n        \"job_title\": \"Software Engineer\",\n        \"company_name\": \"Praktis\",\n        \"location\": \"Jakarta\",\n        \"job_type\": \"Full-time\",\n        \"salary\": \"Rp 15.000.000\",\n        \"work_location\": \"On-site\"\n      },\n      {\n        \"id\": 13,\n        \"job_title\": \"Senior Backend\",\n        \"company_name\": \"Praktis\",\n        \"location\": \"Jakarta\",\n        \"job_type\": \"Part-time\",\n        \"salary\": \"Rp 19.000.000\",\n        \"work_location\": \"Hybird\"\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "02834761-df29-470c-aec4-7102d2c26f04",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "f1d2aba3-0c5b-4bf9-868a-a12730be5ed5",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "ff0546de-d500-4ef4-a385-c434d25c5c77",
+      "type": "http",
+      "documentation": "Fetch detail job",
+      "method": "get",
+      "endpoint": "jobs/:id",
+      "responses": [
+        {
+          "uuid": "bffcb9cf-6477-4e54-b9da-1381047fb679",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Job Fetched\",\n  \"data\": {\n    \"id\": 1,\n    \"company_name\": \"Praktis\",\n    \"company_logo\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\",\n    \"job_title\": \"Relationship Manager – Lending (Jabodetabek)\",\n    \"job_description\": \"- Maintaining, growing and deepening relationship with existing and prospective SME customers \\n 2. Acquiring outstanding loan / funding and minimize attrition rate \\n 3. Collecting market information’s and do some updating customer database to achieve an effective cross selling\",\n    \"job_requirements\": \"1. At least Bachelor Degree from reputable university. \\n 2. Have work experience min. 2 years for Banking Industry relevant field (Relationship Manager SME). \\n 3. Have Passion and interest to selling various Bank's products.\"\n    \"company_description\": \"Praktis is an end to end supply chain startup that helps brands focus on their core competencies with reliable technology and a data powered platform for seamless business operation.\",\n    \"job_information\": {\n      \"experience_requirement\": [\n        {\n          \"experince_name\": \"Fresh-graduate\"\n        },\n        {\n          \"experince_name\": \"Junior\"\n        },\n        {\n          \"experince_name\": \"Middle\"\n        }\n      ],\n      \"work_location\": \"Onsite\",\n      \"job_type\": [\n        {\n          \"type\": \"Fulltime\"\n        },\n        {\n          \"type\": \"Part-time\" \n        } \n      ],\n      \"salary\": \"5.000.000 - 6.000.000\"\n    },\n    \"skill_needed\": [\n      {\n        \"skill_name\": \"SQL\"\n      },\n        \"skill_name\": \"Python\"\n      },\n        \"skill_name\": \"Docker\"\n      }\n    ]\n    \"benefits\": [\n      {\n        \"id\": 1,\n        \"name\": \"Dental Insurance\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/dentalInsurance.png\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"THR / Bonus system\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Competitive Salary\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Period Leave\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Casual Dress Code\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/casualDressCode.png\"\n      },\n      {\n        \"id\": 6,\n        \"name\": \"Company Outings\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/companyOutings.png\"\n      },\n      {\n        \"id\": 7,\n        \"name\": \"Paid Sick Days\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/paidSickDays.png\"\n      }\n    ],\n    \"insight\": {\n      \"industry\": \"Transportation, Logistics, Supply Chain And Storage\",\n      \"location\": \"Jakarta Selatan, Indonesia\",\n      \"company_size\": \"> 100 employees\",\n      \"working_place\": \"Hybird\",\n      \"website\": \"https://www.praktis.co\"\n    }\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "c301171f-d677-46d5-ae6b-5e001f92915c",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "df1a5518-a896-412e-9b7b-bdc7d7f108bd",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "60e36d34-f6a1-41de-98da-bba85fcc378d",
+      "type": "http",
+      "documentation": "Ini route untuk lamar job",
+      "method": "post",
+      "endpoint": "jobs/:id",
+      "responses": [
+        {
+          "uuid": "dadbab76-7deb-4f39-a4bc-fd727f49c886",
+          "body": "{\n  \"code\": 200,\n  \"success\": true,\n  \"message\": \"Job Applied!\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "header",
+              "modifier": "Bearer ",
+              "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "user_id",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "a1715612-d15f-4e12-8a44-2cf6edec8a14",
+          "body": "{\n  \"code\": 500,\n  \"success\": false,\n  \"message\": \"Error Message Here\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "3f2be1fd-ec85-4ef3-8104-6a6f76c2616e",
+          "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "folder",
+      "uuid": "3f917098-4de6-4ea5-b478-c8a7f69a2cca"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
