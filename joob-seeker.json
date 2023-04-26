@@ -4,7 +4,7 @@
   "name": "Joob seeker api",
   "endpointPrefix": "",
   "latency": 0,
-  "port": 3000,
+  "port": 5000,
   "hostname": "",
   "folders": [
     {
@@ -52,7 +52,7 @@
     {
       "uuid": "fb296420-d264-4de9-a2fe-02fac5cefe06",
       "name": "Profile Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -644,6 +644,41 @@
               "target": "header",
               "modifier": "Bearer ",
               "value": "token jwt disini",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "name",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "degree",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "major",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "start",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "end",
+              "value": "",
               "invert": false,
               "operator": "equals"
             }
@@ -1309,7 +1344,7 @@
       "responses": [
         {
           "uuid": "bffcb9cf-6477-4e54-b9da-1381047fb679",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Job Fetched\",\n  \"data\": {\n    \"id\": 1,\n    \"company_name\": \"Praktis\",\n    \"company_logo\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\",\n    \"job_title\": \"Relationship Manager – Lending (Jabodetabek)\",\n    \"job_description\": \"- Maintaining, growing and deepening relationship with existing and prospective SME customers \\n 2. Acquiring outstanding loan / funding and minimize attrition rate \\n 3. Collecting market information’s and do some updating customer database to achieve an effective cross selling\",\n    \"job_requirements\": \"1. At least Bachelor Degree from reputable university. \\n 2. Have work experience min. 2 years for Banking Industry relevant field (Relationship Manager SME). \\n 3. Have Passion and interest to selling various Bank's products.\"\n    \"company_description\": \"Praktis is an end to end supply chain startup that helps brands focus on their core competencies with reliable technology and a data powered platform for seamless business operation.\",\n    \"job_information\": {\n      \"experience_requirement\": [\n        {\n          \"experince_name\": \"Fresh-graduate\"\n        },\n        {\n          \"experince_name\": \"Junior\"\n        },\n        {\n          \"experince_name\": \"Middle\"\n        }\n      ],\n      \"work_location\": \"Onsite\",\n      \"job_type\": [\n        {\n          \"type\": \"Fulltime\"\n        },\n        {\n          \"type\": \"Part-time\" \n        } \n      ],\n      \"salary\": \"5.000.000 - 6.000.000\"\n    },\n    \"skill_needed\": [\n      {\n        \"skill_name\": \"SQL\"\n      },\n        \"skill_name\": \"Python\"\n      },\n        \"skill_name\": \"Docker\"\n      }\n    ]\n    \"benefits\": [\n      {\n        \"id\": 1,\n        \"name\": \"Dental Insurance\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/dentalInsurance.png\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"THR / Bonus system\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Competitive Salary\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Period Leave\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Casual Dress Code\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/casualDressCode.png\"\n      },\n      {\n        \"id\": 6,\n        \"name\": \"Company Outings\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/companyOutings.png\"\n      },\n      {\n        \"id\": 7,\n        \"name\": \"Paid Sick Days\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/paidSickDays.png\"\n      }\n    ],\n    \"insight\": {\n      \"industry\": \"Transportation, Logistics, Supply Chain And Storage\",\n      \"location\": \"Jakarta Selatan, Indonesia\",\n      \"company_size\": \"> 100 employees\",\n      \"working_place\": \"Hybird\",\n      \"website\": \"https://www.praktis.co\"\n    }\n  }\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Job Fetched\",\n  \"data\": {\n    \"id\": 1,\n    \"company_name\": \"Praktis\",\n    \"company_logo\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\",\n    \"job_title\": \"Relationship Manager – Lending (Jabodetabek)\",\n    \"job_description\": \"- Maintaining, growing and deepening relationship with existing and prospective SME customers \\n 2. Acquiring outstanding loan / funding and minimize attrition rate \\n 3. Collecting market information’s and do some updating customer database to achieve an effective cross selling\",\n    \"job_requirements\": \"1. At least Bachelor Degree from reputable university. \\n 2. Have work experience min. 2 years for Banking Industry relevant field (Relationship Manager SME). \\n 3. Have Passion and interest to selling various Bank's products.\"\n    \"company_description\": \"Praktis is an end to end supply chain startup that helps brands focus on their core competencies with reliable technology and a data powered platform for seamless business operation.\",\n    \"job_information\": {\n      \"experience_requirement\": [\n        {\n          \"experince_name\": \"Fresh-graduate\"\n        },\n        {\n          \"experince_name\": \"Junior\"\n        },\n        {\n          \"experince_name\": \"Middle\"\n        }\n      ],\n      \"work_location\": \"Onsite\",\n      \"job_type\": [\n        {\n          \"type\": \"Fulltime\"\n        },\n        {\n          \"type\": \"Part-time\" \n        } \n      ],\n      \"salary\": \"5.000.000 - 6.000.000\"\n    },\n    \"skill_needed\": [\n      {\n        \"skill_name\": \"SQL\"\n      },\n      {\n        \"skill_name\": \"Python\"\n      },\n      {\n        \"skill_name\": \"Docker\"\n      }\n    ]\n    \"benefits\": [\n      {\n        \"id\": 1,\n        \"name\": \"Dental Insurance\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/dentalInsurance.png\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"THR / Bonus system\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Competitive Salary\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Period Leave\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Casual Dress Code\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/casualDressCode.png\"\n      },\n      {\n        \"id\": 6,\n        \"name\": \"Company Outings\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/companyOutings.png\"\n      },\n      {\n        \"id\": 7,\n        \"name\": \"Paid Sick Days\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/paidSickDays.png\"\n      }\n    ],\n    \"insight\": {\n      \"industry\": \"Transportation, Logistics, Supply Chain And Storage\",\n      \"location\": \"Jakarta Selatan, Indonesia\",\n      \"company_size\": \"> 100 employees\",\n      \"working_place\": \"Hybird\",\n      \"website\": \"https://www.praktis.co\"\n    }\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
