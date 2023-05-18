@@ -35,13 +35,17 @@
         {
           "type": "folder",
           "uuid": "c4d455e7-14c7-4383-a750-51064fb67fdd"
+        },
+        {
+          "type": "folder",
+          "uuid": "9581b584-0817-40dd-a3ee-0ab360c975b9"
         }
       ]
     },
     {
       "uuid": "426b9120-51c1-4823-8fd2-d7843a420429",
       "name": "Authenctication Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -65,10 +69,6 @@
         {
           "type": "folder",
           "uuid": "48980e14-a858-4119-b89d-6cfd4c49ecbb"
-        },
-        {
-          "type": "folder",
-          "uuid": "9581b584-0817-40dd-a3ee-0ab360c975b9"
         }
       ]
     },
@@ -131,7 +131,7 @@
     {
       "uuid": "27947ae5-de14-450c-8ebf-a096beff6c96",
       "name": "Basic Info",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "route",
@@ -202,7 +202,7 @@
     {
       "uuid": "c3af5a1d-6a85-4664-86bc-8cc7491e24a8",
       "name": "Detail Job Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -216,7 +216,7 @@
     },
     {
       "uuid": "9581b584-0817-40dd-a3ee-0ab360c975b9",
-      "name": "My Application",
+      "name": "History Page",
       "collapsed": false,
       "children": [
         {
@@ -228,7 +228,7 @@
     {
       "uuid": "c4d455e7-14c7-4383-a750-51064fb67fdd",
       "name": "Notification Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -238,8 +238,8 @@
     },
     {
       "uuid": "ddd53e36-0da0-457a-b74f-7c77f2992fef",
-      "name": "Profile Page",
-      "collapsed": false,
+      "name": "profile page company",
+      "collapsed": true,
       "children": [
         {
           "type": "route",
@@ -253,7 +253,7 @@
     },
     {
       "uuid": "85c72499-baef-4ea6-9978-6621a3a1318e",
-      "name": "My Jobs page",
+      "name": "My jobs page",
       "collapsed": true,
       "children": [
         {
@@ -277,19 +277,19 @@
     {
       "uuid": "a1b6c7d9-6d75-49a0-bcb0-b702a57f0ee5",
       "name": "Auth Company",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
+        {
+          "type": "route",
+          "uuid": "5ff82872-5ec8-440c-9979-eaac511ade8a"
+        },
+        {
+          "type": "route",
+          "uuid": "aeba9055-991c-4554-a29a-bd63de384709"
+        },
         {
           "type": "folder",
           "uuid": "ff60960e-9692-4405-bee8-c095a9a16b17"
-        },
-        {
-          "type": "folder",
-          "uuid": "b64120a9-63c3-4fc9-b26c-982d47b8ad84"
-        },
-        {
-          "type": "folder",
-          "uuid": "ed092579-35d3-45bc-bd75-8550aebca13d"
         }
       ]
     },
@@ -305,13 +305,13 @@
       ]
     },
     {
-      "uuid": "6a812ca7-cf54-476c-9d53-3065b7d94b3d",
+      "uuid": "274a2951-aa77-430c-8326-c9f7bd1c6fce",
       "name": "Company",
       "collapsed": false,
       "children": [
         {
           "type": "folder",
-          "uuid": "ddd53e36-0da0-457a-b74f-7c77f2992fef"
+          "uuid": "a1b6c7d9-6d75-49a0-bcb0-b702a57f0ee5"
         },
         {
           "type": "folder",
@@ -319,29 +319,7 @@
         },
         {
           "type": "folder",
-          "uuid": "a1b6c7d9-6d75-49a0-bcb0-b702a57f0ee5"
-        }
-      ]
-    },
-    {
-      "uuid": "b64120a9-63c3-4fc9-b26c-982d47b8ad84",
-      "name": "Register",
-      "collapsed": false,
-      "children": [
-        {
-          "type": "route",
-          "uuid": "5ff82872-5ec8-440c-9979-eaac511ade8a"
-        }
-      ]
-    },
-    {
-      "uuid": "ed092579-35d3-45bc-bd75-8550aebca13d",
-      "name": "Login",
-      "collapsed": false,
-      "children": [
-        {
-          "type": "route",
-          "uuid": "aeba9055-991c-4554-a29a-bd63de384709"
+          "uuid": "ddd53e36-0da0-457a-b74f-7c77f2992fef"
         }
       ]
     }
@@ -1110,7 +1088,7 @@
             },
             {
               "target": "query",
-              "modifier": "workSalary",
+              "modifier": "workPlace",
               "value": "onsite|hybird|remo",
               "invert": false,
               "operator": "equals"
@@ -1624,13 +1602,13 @@
     {
       "uuid": "72337873-6f7f-4b3b-ab32-773e44bfbfbd",
       "type": "http",
-      "documentation": "",
+      "documentation": "History Page API",
       "method": "get",
-      "endpoint": "profile/myapplication/:myapplication:id",
+      "endpoint": "history/:profile_id",
       "responses": [
         {
           "uuid": "5aa537b8-1c8e-42c0-9074-9fbac2aa31d6",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"My Application Fetched\",\n  \"data\": [\n    {\n      \"id\": 1,\n      \"status\": \"Applied\",\n      \"position\": \"Junior Developer\",\n      \"company\": \"PT Kreatifitas Sinergisme Teknoindo (KST)\",\n      \"location\": \"Online\",\n      \"job_type\": \"Contract\",\n      \"salary\": \"Negotiable\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"Under Review\"\n      \"position\": \"Web Developer\",\n      \"company\": \"PT Ciputra Development Tbk\",\n      \"location\": \"Jakarta Selatan\",\n      \"job_type\": \"Full-Time\",\n      \"salary\": \"Negotiable\"\n    },\n    {\n      \"id\": 18,\n      \"status\": \"Interviewing\"\n      \"position\": \"IT Junior Java Developer\",\n      \"company\": \"PT Sinarmas Multifinance\",\n      \"location\": \"Jakarta Barat\",\n      \"job_type\": \"Full-Time\",\n      \"salary\": \"Negotiable\"\n    },\n    {\n      \"id\":20\n      \"status\": \"Hired\",\n      \"position\": \"Linux System Administrator\",\n      \"company\": \"Tonjoo\",\n      \"location\": \"Sleman Regency\",\n      \"job_type\": \"Full-Time\",\n      \"salary\": \"3.000.000-4.500.000\"\n    },\n    {\n      \"id\": 21\n      \"status\": \"Rejected\",\n      \"position\": \"Devops\",\n      \"company\": \"Newatech\",\n      \"location\": \"Tanggerang Selatan\",\n      \"job_type\": \"Full-Time\",\n      \"salary\": \"Negotiable\"\n    },\n    {\n      \"id\": 99\n      \"status\": \"Withdrawn\",\n      \"position\": \"Mobile Developer\",\n      \"company\": \"Avows Technologies Indonesia\",\n      \"location\": \"Jakarta\",\n      \"job_type\": \"Full-Time, Contract\",\n      \"salary\": \"Negotiable\"\n    }\n  ]\n\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"History Fetched\",\n  \"data\": [\n    {\n      \"id\": 1,\n      \"status\": \"rejected\",\n      \"position\": \"Junior Developer\",\n      \"company\": \"PT Kreatifitas Sinergisme Teknoindo (KST)\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"pending\"\n      \"position\": \"Web Developer\",\n      \"company\": \"PT Ciputra Development Tbk\",\n    },\n    {\n      \"id\": 18,\n      \"status\": \"accepted\"\n      \"position\": \"IT Junior Java Developer\",\n      \"company\": \"PT Sinarmas Multifinance\",\n    }\n  ]\n\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -1675,6 +1653,23 @@
           "body": "{\n  \"code\": 401,\n  \"success\": false,\n  \"message\": \"Unauthorized\"\n}",
           "latency": 0,
           "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "32a0dfe3-d23e-49c9-95e2-e2a6ccd5c72f",
+          "body": "{\n    \"code\": 400,\n    \"success\": false,\n    \"message\": \"Sorry, You have already applied\",\n}",
+          "latency": 0,
+          "statusCode": 400,
           "label": "",
           "headers": [],
           "bodyType": "INLINE",
@@ -2545,7 +2540,7 @@
     },
     {
       "type": "folder",
-      "uuid": "6a812ca7-cf54-476c-9d53-3065b7d94b3d"
+      "uuid": "274a2951-aa77-430c-8326-c9f7bd1c6fce"
     }
   ],
   "proxyMode": false,
