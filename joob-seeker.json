@@ -60,7 +60,7 @@
     {
       "uuid": "fb296420-d264-4de9-a2fe-02fac5cefe06",
       "name": "Profile Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -75,7 +75,7 @@
     {
       "uuid": "0f714ba4-2310-4f3e-a3dd-1efa8986ee88",
       "name": "Main Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -94,7 +94,7 @@
     {
       "uuid": "c80f29e0-cc90-4880-95d5-88845ae05a08",
       "name": "Companies List Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -228,7 +228,7 @@
     {
       "uuid": "c4d455e7-14c7-4383-a750-51064fb67fdd",
       "name": "Notification Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -295,7 +295,7 @@
     {
       "uuid": "eaa6892a-7e75-4e12-8b36-befea36a4010",
       "name": "My Company",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -314,7 +314,7 @@
     {
       "uuid": "8ba5e8c2-4e63-4bc6-8145-a94e9812cbd3",
       "name": "My Jobs",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -1595,7 +1595,7 @@
       "responses": [
         {
           "uuid": "2c0bde2a-c055-465e-9e65-33c1a197e4f5",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Company Fetched\",\n  \"data\": {\n    \"id\": 1,\n    \"company_name\": \"Praktis\",\n    \"company_logo\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\",\n    \"company_description\": \"Praktis is an end to end supply chain startup that helps brands focus on their core competencies with reliable technology and a data powered platform for seamless business operation.\",\n    \"insight\": {\n      \"industry\": \"Transportation, Logistics, Supply Chain And Storage\",\n      \"location\": \"Jakarta Selatan, Indonesia\",\n      \"company_size\": \"> 100 employees\",\n      \"working_place\": \"Hybird\",\n      \"website\": \"https://www.praktis.co\"\n    },\n    \"benefits\": [\n      {\n        \"id\": 1,\n        \"name\": \"Dental Insurance\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/dentalInsurance.png\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"THR / Bonus system\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Competitive Salary\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Period Leave\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Casual Dress Code\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/casualDressCode.png\"\n      },\n      {\n        \"id\": 6,\n        \"name\": \"Company Outings\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/companyOutings.png\"\n      },\n      {\n        \"id\": 7,\n        \"name\": \"Paid Sick Days\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/paidSickDays.png\"\n      }\n    ],\n    \"jobs\": [\n      {\n        \"id\": 1,\n        \"job_title\": \"Software Engineer\",\n        \"company_name\": \"Praktis\",\n        \"location\": \"Jakarta\",\n        \"job_type\": \"Full-time\",\n        \"salary\": \"Rp 15.000.000\",\n        \"work_location\": \"On-site\"\n      },\n      {\n        \"id\": 13,\n        \"job_title\": \"Senior Backend\",\n        \"company_name\": \"Praktis\",\n        \"location\": \"Jakarta\",\n        \"job_type\": \"Part-time\",\n        \"salary\": \"Rp 19.000.000\",\n        \"work_location\": \"Hybird\"\n      }\n    ]\n  }\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Company Fetched\",\n  \"data\": {\n    \"id\": 1,\n    \"company_name\": \"Praktis\",\n    \"company_logo\": \"https://cdn.sejutacita.id/64268beb17d0d40013915bb7/JobPortalCompanyLogo/4f08ef2a-a5a5-4acc-8511-b2009ba5cd24.png\",\n    \"company_description\": \"Praktis is an end to end supply chain startup that helps brands focus on their core competencies with reliable technology and a data powered platform for seamless business operation.\",\n    \"insight\": {\n      \"industry\": \"Transportation, Logistics, Supply Chain And Storage\",\n      \"location\": \"Jakarta Selatan, Indonesia\",\n      \"company_size\": \"> 100 employees\",\n      \"working_place\": \"Hybird\",\n      \"website\": \"https://www.praktis.co\"\n    },\n    \"benefits\": [\n      {\n        \"id\": 1,\n        \"name\": \"Dental Insurance\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/dentalInsurance.png\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"THR / Bonus system\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Competitive Salary\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Period Leave\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Casual Dress Code\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/casualDressCode.png\"\n      },\n      {\n        \"id\": 6,\n        \"name\": \"Company Outings\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/companyOutings.png\"\n      },\n      {\n        \"id\": 7,\n        \"name\": \"Paid Sick Days\",\n        \"icon\": \"https://talent.usedeall.com/BenefitIcons/paidSickDays.png\"\n      }\n    ],\n    \"jobs\": [\n      {\n        \"id\": 1,\n        \"job_title\": \"Software Engineer\",\n        \"job_category\": \"Marketing\",\n        \"company_name\": \"PT Example 1\",\n        \"company_icon\": \"https://example.com/logo1.png\",\n        \"location\": \"Jakarta\",\n        \"job_type\": \"intern\",\n        \"salary\": \"Rp. 3.000.000 - Rp. 5.000.000\",\n        \"work_location\": \"onsite\"\n      },\n      {\n        \"id\": 29,\n        \"job_title\": \"Software Mainetener\",\n        \"job_category\": \"IT\",\n        \"company_name\": \"PT Example 1\",\n        \"company_icon\": \"https://example.com/logo2.png\",\n        \"location\": \"Jakarta\",\n        \"job_type\": \"fulltime\",\n        \"salary\": \"Rp. 5.000.000 - Rp. 7.000.000\",\n        \"work_location\": \"remote\"\n      }\n    ]\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
