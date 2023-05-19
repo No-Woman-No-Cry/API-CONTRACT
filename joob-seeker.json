@@ -10,7 +10,7 @@
     {
       "uuid": "3f917098-4de6-4ea5-b478-c8a7f69a2cca",
       "name": "Joob Seeker",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -258,7 +258,7 @@
     {
       "uuid": "aef0c503-dd6a-4056-9c8e-31f0847a8af0",
       "name": "Autentication Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -2060,7 +2060,7 @@
       "responses": [
         {
           "uuid": "bf748b3c-d0f6-48a2-9dc2-05f4c5e62a00",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Login Successfully\",\n  \"data\": {\n    \"employer_id\": 1234,\n    \"company_name\": \"PT. Rakamin\",\n    \"company_id\": 4545\n  }\n\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Login Successfully\",\n  \"data\": {\n    \"employer_id\": 1234,\n    \"company_name\": \"PT. Rakamin\",\n    \"company_id\": 4545,\n    \"token\": \"eqfdojgklfjdgkj9054u6y95jytmdghdfdafdsfsdfgsfgfdgweerrtyruui\"\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
