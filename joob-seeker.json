@@ -131,7 +131,7 @@
     {
       "uuid": "27947ae5-de14-450c-8ebf-a096beff6c96",
       "name": "Basic Info",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -495,7 +495,7 @@
       "responses": [
         {
           "uuid": "17344910-4647-4e47-8aab-b04ec5038d9f",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Basic Info Fetched\",\n  \"data\": {\n    \"email\": \"johndoe@mail.com\",\n    \"name\": \"john doe\",\n    \"whatsapp_number\": \"6534389587445\",\n    \"linkedin_url\": \"https://linkedin.com/hjghjfkt5894\",\n    \"cv_url\": \"https://cvku.com\",\n    \"portofolio_url\": \"https://portofolio.com\"\n  }\n\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Basic Info Fetched\",\n  \"data\": {\n    \"email\": \"janedoe_2@mail.com\",\n    \"name\": \"Jane Joe Pujiono\",\n    \"job_seeker_headline\": \"Big Data Analyst\",\n    \"whatsapp_number\": \"0888996825018\",\n    \"linkedin_url\": \"https://linkedin.com/ridhopujiono\",\n    \"portofolio_url\": \"htpps://portofolioku.com/ridhopujiono\",\n    \"cv_url\": \"htpps://cv.com/ridhopujiono\"\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -621,6 +621,13 @@
               "target": "body",
               "modifier": "portofolio_url",
               "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "job_seeker_headline",
+              "value": "Ini itu headline dari User, misal : Data Anlyst, Web Developer atau bisa disebut kemahiran user",
               "invert": false,
               "operator": "equals"
             }
