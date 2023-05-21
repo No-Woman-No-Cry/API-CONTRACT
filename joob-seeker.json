@@ -314,7 +314,7 @@
     {
       "uuid": "8ba5e8c2-4e63-4bc6-8145-a94e9812cbd3",
       "name": "My Jobs",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -2199,6 +2199,13 @@
             {
               "target": "body",
               "modifier": "company_website_url",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "email",
               "value": "",
               "invert": false,
               "operator": "equals"
