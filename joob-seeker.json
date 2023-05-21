@@ -2551,13 +2551,13 @@
     {
       "uuid": "4dd40cab-7b2e-48ec-b0fc-bf5e62ed924c",
       "type": "http",
-      "documentation": "Tampilkan ini di dropdown pada saat mengirim benefit",
+      "documentation": "Tampilkan ini di dropdown pada saat mengirim industri",
       "method": "get",
       "endpoint": "employer/my-company/industry/industries",
       "responses": [
         {
           "uuid": "8dc014e2-9e32-42da-a059-de8bcaee2b1b",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Benefits Fetched\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Agriculture\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Fashion\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Hospitality\"\n    },\n    {\n      \"id\": 4,\n      \"name\": \"Sports\"\n    },\n    {\n      \"id\": 5,\n      \"name\": \"Automotive\"\n    },\n    {\n      \"id\": 6,\n      \"name\": \"Creative & Design\"\n    },\n    {\n      \"id\": 7,\n      \"name\": \"Healthcare\"\n    },\n    {\n      \"id\": 8,\n      \"name\": \"Renewable Energy\"\n    },\n    {\n      \"id\": 9,\n      \"name\": \"Banking\"\n    },\n    {\n      \"id\": 10,\n      \"name\": \"Media\"\n    }\n  ]\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Industries Fetched\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Agriculture\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Fashion\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Hospitality\"\n    },\n    {\n      \"id\": 4,\n      \"name\": \"Sports\"\n    },\n    {\n      \"id\": 5,\n      \"name\": \"Automotive\"\n    },\n    {\n      \"id\": 6,\n      \"name\": \"Creative & Design\"\n    },\n    {\n      \"id\": 7,\n      \"name\": \"Healthcare\"\n    },\n    {\n      \"id\": 8,\n      \"name\": \"Renewable Energy\"\n    },\n    {\n      \"id\": 9,\n      \"name\": \"Banking\"\n    },\n    {\n      \"id\": 10,\n      \"name\": \"Media\"\n    }\n  ]\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
