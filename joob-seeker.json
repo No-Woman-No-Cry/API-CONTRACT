@@ -45,7 +45,7 @@
     {
       "uuid": "426b9120-51c1-4823-8fd2-d7843a420429",
       "name": "Authenctication Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -75,7 +75,7 @@
     {
       "uuid": "0f714ba4-2310-4f3e-a3dd-1efa8986ee88",
       "name": "Main Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -94,7 +94,7 @@
     {
       "uuid": "c80f29e0-cc90-4880-95d5-88845ae05a08",
       "name": "Companies List Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "route",
@@ -217,7 +217,7 @@
     {
       "uuid": "9581b584-0817-40dd-a3ee-0ab360c975b9",
       "name": "History Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -2133,7 +2133,7 @@
       "type": "http",
       "documentation": "",
       "method": "put",
-      "endpoint": "employer/profile/basic/:company_id",
+      "endpoint": "employer/my-company/basic/:company_id",
       "responses": [
         {
           "uuid": "bd2b84b6-568b-4b9d-8e50-698eed1ed9e0",
@@ -2252,7 +2252,7 @@
       "type": "http",
       "documentation": "",
       "method": "get",
-      "endpoint": "employer/profile/basic/:company_id",
+      "endpoint": "employer/my-company/basic/:company_id",
       "responses": [
         {
           "uuid": "dacbb8d4-75da-43f0-8609-a0a3d88a3e18",
@@ -2322,7 +2322,7 @@
       "type": "http",
       "documentation": "Tampilkan ini di dropdown pada saat mengirim benefit",
       "method": "get",
-      "endpoint": "employer/profile/benefit/benefits",
+      "endpoint": "employer/my-company/benefit/benefits",
       "responses": [
         {
           "uuid": "17928813-7f86-425d-8096-2d64ee40a4ed",
@@ -2392,7 +2392,7 @@
       "type": "http",
       "documentation": "",
       "method": "get",
-      "endpoint": "employer/profile/benefit/:company_id",
+      "endpoint": "employer/my-company/benefit/:company_id",
       "responses": [
         {
           "uuid": "278e42d9-9a0f-451a-8546-fd1efa4132d4",
@@ -2462,7 +2462,7 @@
       "type": "http",
       "documentation": "",
       "method": "post",
-      "endpoint": "employer/profile/benefit/:company_id",
+      "endpoint": "employer/my-company/benefit/:company_id",
       "responses": [
         {
           "uuid": "664d44f2-543d-4153-8985-8036fabc98f0",
@@ -2553,7 +2553,7 @@
       "type": "http",
       "documentation": "Tampilkan ini di dropdown pada saat mengirim benefit",
       "method": "get",
-      "endpoint": "employer/profile/industry/industries",
+      "endpoint": "employer/my-company/industry/industries",
       "responses": [
         {
           "uuid": "8dc014e2-9e32-42da-a059-de8bcaee2b1b",
@@ -2623,7 +2623,7 @@
       "type": "http",
       "documentation": "",
       "method": "get",
-      "endpoint": "employer/profile/industry/:company_id",
+      "endpoint": "employer/my-company/industry/:company_id",
       "responses": [
         {
           "uuid": "c1a66129-bd86-4da3-bc9e-dcd71c18bb4d",
@@ -2693,7 +2693,7 @@
       "type": "http",
       "documentation": "",
       "method": "post",
-      "endpoint": "employer/profile/industry/:company_id",
+      "endpoint": "employer/my-company/industry/:company_id",
       "responses": [
         {
           "uuid": "a4028927-3b95-4172-b5f4-b53b9742916c",
