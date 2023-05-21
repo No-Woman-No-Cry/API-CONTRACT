@@ -2205,7 +2205,14 @@
             },
             {
               "target": "body",
-              "modifier": "email",
+              "modifier": "company_email",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "company_whatsapp_number",
               "value": "",
               "invert": false,
               "operator": "equals"
