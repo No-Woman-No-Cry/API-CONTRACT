@@ -314,7 +314,7 @@
     {
       "uuid": "8ba5e8c2-4e63-4bc6-8145-a94e9812cbd3",
       "name": "My Jobs",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -2717,21 +2717,7 @@
             {
               "target": "body",
               "modifier": "industry_id[0]",
-              "value": "isi dengan industry_id dari fetch pada folder GET ALL BENEFIT FOR DROPDWON / OPTION, Jadi logikanya company punya banyak industry_id",
-              "invert": false,
-              "operator": "equals"
-            },
-            {
-              "target": "body",
-              "modifier": "industry_id[1]",
-              "value": "isi dengan industry_id dari fetch pada folder GET ALL BENEFIT FOR DROPDWON / OPTION, Jadi logikanya company punya banyak industry_id",
-              "invert": false,
-              "operator": "equals"
-            },
-            {
-              "target": "body",
-              "modifier": "industry_id[2]",
-              "value": "isi dengan industry_id dari fetch pada folder GET ALL BENEFIT FOR DROPDWON / OPTION, Jadi logikanya company punya banyak industry_id",
+              "value": "[1, 3, 4]",
               "invert": false,
               "operator": "equals"
             }
