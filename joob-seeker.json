@@ -10,7 +10,7 @@
     {
       "uuid": "3f917098-4de6-4ea5-b478-c8a7f69a2cca",
       "name": "Joob Seeker",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -45,7 +45,7 @@
     {
       "uuid": "426b9120-51c1-4823-8fd2-d7843a420429",
       "name": "Authenctication Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "folder",
@@ -94,7 +94,7 @@
     {
       "uuid": "c80f29e0-cc90-4880-95d5-88845ae05a08",
       "name": "Companies List Page",
-      "collapsed": true,
+      "collapsed": false,
       "children": [
         {
           "type": "route",
@@ -258,7 +258,7 @@
     {
       "uuid": "aef0c503-dd6a-4056-9c8e-31f0847a8af0",
       "name": "Autentication Page",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "folder",
@@ -2499,22 +2499,8 @@
             },
             {
               "target": "body",
-              "modifier": "benefit_id[0]",
-              "value": "isi dengan benefit_id dari fetch pada folder GET ALL BENEFIT FOR DROPDWON / OPTION, Jadi logikanya company punya banyak benefit_id",
-              "invert": false,
-              "operator": "equals"
-            },
-            {
-              "target": "body",
-              "modifier": "benefit_id[1]",
-              "value": "isi dengan benefit_id dari fetch pada folder GET ALL BENEFIT FOR DROPDWON / OPTION, Jadi logikanya company punya banyak benefit_id",
-              "invert": false,
-              "operator": "equals"
-            },
-            {
-              "target": "body",
-              "modifier": "benefit_id[2]",
-              "value": "isi dengan benefit_id dari fetch pada folder GET ALL BENEFIT FOR DROPDWON / OPTION, Jadi logikanya company punya banyak benefit_id",
+              "modifier": "benefit_id",
+              "value": "[2,4,5]",
               "invert": false,
               "operator": "equals"
             }
