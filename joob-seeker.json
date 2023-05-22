@@ -2340,7 +2340,7 @@
       "responses": [
         {
           "uuid": "17928813-7f86-425d-8096-2d64ee40a4ed",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Benefits Fetched\",\n  \"data\": [\n    {\n      \"benefit_id\": 1,\n      \"name\": \"Gaji Kompetitif\"\n    },\n    {\n      \"benefit_id\": 2,\n      \"name\": \"Fasilitas transportasi\"\n    },\n    {\n      \"benefit_id\": 3,\n      \"name\": \"THR / Sistem Bonus\"\n    },\n    {\n      \"benefit_id\": 4,\n      \"name\": \"Tiket pesawat murah\"\n    },\n    {\n      \"benefit_id\": 5,\n      \"name\": \"Asuransi kesehatan\"\n    },\n    {\n      \"benefit_id\": 6,\n      \"name\": \"Diskon Karyawan\"\n    }\n  ]\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Benefits Fetched\",\n  \"data\": [\n    {\n      \"benefit_id\": 1,\n      \"name\": \"Gaji Kompetitif\",\n      \"icon\": \"https://talent.usedeall.com/BenefitIcons/competitiveSalary.png\"\n    },\n    {\n      \"benefit_id\": 2,\n      \"name\": \"Fasilitas transportasi\",\n      \"icon\": \"https://talent.usedeall.com/BenefitIcons/transportation.png\"\n    },\n    {\n      \"benefit_id\": 3,\n      \"name\": \"THR / Sistem Bonus\",\n      \"icon\": \"https://talent.usedeall.com/BenefitIcons/bonusSystem.png\"\n    },\n    {\n      \"benefit_id\": 4,\n      \"name\": \"Tiket pesawat murah\",\n      \"icon\": \"https://talent.usedeall.com/BenefitIcons/periodLeave.png\"\n    },\n    {\n      \"benefit_id\": 5,\n      \"name\": \"Asuransi kesehatan\",\n      \"icon\": \"https://talent.usedeall.com/BenefitIcons/medicalInsurance.png\"\n    },\n    {\n      \"benefit_id\": 6,\n      \"name\": \"Diskon Karyawan\",\n      \"icon\": \"https://talent.usedeall.com/BenefitIcons/employeeDiscounts.png\"\n    }\n  ]\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -2557,7 +2557,7 @@
       "responses": [
         {
           "uuid": "8dc014e2-9e32-42da-a059-de8bcaee2b1b",
-          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Industries Fetched\",\n  \"categories\": [\n    {\n      \"id\": 1,\n      \"name\": \"Agriculture\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Fashion\"\n    },\n    {\n      \"id\": 3,\n      \"name\": \"Hospitality\"\n    },\n    {\n      \"id\": 4,\n      \"name\": \"Sports\"\n    },\n    {\n      \"id\": 5,\n      \"name\": \"Automotive\"\n    },\n    {\n      \"id\": 6,\n      \"name\": \"Creative & Design\"\n    },\n    {\n      \"id\": 7,\n      \"name\": \"Healthcare\"\n    },\n    {\n      \"id\": 8,\n      \"name\": \"Renewable Energy\"\n    },\n    {\n      \"id\": 9,\n      \"name\": \"Banking\"\n    },\n    {\n      \"id\": 10,\n      \"name\": \"Media\"\n    }\n  ]\n}",
+          "body": "{\n  \"code\": 200,\n  \"succcess\": true,\n  \"message\": \"Industries Fetched\",\n  \"categories\": [\n    {\n      \"industry_id\": 1,\n      \"name\": \"Agriculture\"\n    },\n    {\n      \"industry_id\": 2,\n      \"name\": \"Fashion\"\n    },\n    {\n      \"industry_id\": 3,\n      \"name\": \"Hospitality\"\n    },\n    {\n      \"industry_id\": 4,\n      \"name\": \"Sports\"\n    },\n    {\n      \"industry_id\": 5,\n      \"name\": \"Automotive\"\n    },\n    {\n      \"industry_id\": 6,\n      \"name\": \"Creative & Design\"\n    },\n    {\n      \"industry_id\": 7,\n      \"name\": \"Healthcare\"\n    },\n    {\n      \"industry_id\": 8,\n      \"name\": \"Renewable Energy\"\n    },\n    {\n      \"industry_id\": 9,\n      \"name\": \"Banking\"\n    },\n    {\n      \"industry_id\": 10,\n      \"name\": \"Media\"\n    }\n  ]\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -2716,7 +2716,7 @@
             },
             {
               "target": "body",
-              "modifier": "industry_id[0]",
+              "modifier": "industry_id",
               "value": "[1, 3, 4]",
               "invert": false,
               "operator": "equals"
