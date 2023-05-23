@@ -363,7 +363,7 @@
     {
       "uuid": "5aee2f68-63de-4f2b-b614-599ccf729285",
       "name": "Industries",
-      "collapsed": false,
+      "collapsed": true,
       "children": [
         {
           "type": "route",
@@ -3130,14 +3130,14 @@
             {
               "target": "body",
               "modifier": "job_type",
-              "value": "fulltime|parttime|intern",
+              "value": "[\"fulltime\", \"parttime\", \"intern\"] dikirim array bisa mengirim salah satu atau lebih dari satu",
               "invert": false,
               "operator": "equals"
             },
             {
               "target": "body",
               "modifier": "job_experience_requirement",
-              "value": "fresh_graduate|junior|middle|senior",
+              "value": "[\"fresh_graduate\",\"junior\",\"middle\",\"senior\"] dikirim array bisa mengirim salah satu atau lebih dari satu",
               "invert": false,
               "operator": "equals"
             }
@@ -3194,7 +3194,7 @@
       "responses": [
         {
           "uuid": "a76ddbb6-36f7-4bdc-9f2c-7671cb1875b8",
-          "body": "{\n  \"code\": 200,\n  \"success\": true,\n  \"message\": \"Job Categories Fetched\",\n  \"data\": [\n    {\n      \"category_id\": 1,\n      \"category_name\": \"IT\"\n    },\n    {\n      \"category_id\": 2,\n      \"category_name\": \"Marketing\"\n    },\n    {\n      \"category_id\": 3,\n      \"category_name\": \"Finance\"\n    },\n    {\n      \"category_id\": 4,\n      \"category_name\": \"Design\"\n    },\n    {\n      \"category_id\": 5,\n      \"category_name\": \"Sales\"\n    },\n    {\n      \"category_id\": 6,\n      \"category_name\": \"Education\"\n    },\n    {\n      \"category_id\": 7,\n      \"category_name\": \"Human Resources\"\n    },\n    {\n      \"category_id\": 8,\n      \"category_name\": \"Art & Design\"\n    }\n  ]\n}",
+          "body": "{\n  \"code\": 200,\n  \"success\": true,\n  \"message\": \"Job Categories Fetched\",\n  \"data\": [\n    {\n      \"category_id\": 1,\n    \"category_name\": \"IT\"\n    },\n    {\n      \"category_id\": 2,\n      \"category_name\": \"Marketing\"\n    },\n    {\n      \"category_id\": 3,\n      \"category_name\": \"Finance\"\n    },\n    {\n      \"category_id\": 4,\n      \"category_name\": \"Design\"\n    },\n    {\n      \"category_id\": 5,\n      \"category_name\": \"Sales\"\n    },\n    {\n      \"category_id\": 6,\n      \"category_name\": \"Education\"\n    },\n    {\n      \"category_id\": 7,\n      \"category_name\": \"Human Resources\"\n    },\n    {\n      \"category_id\": 8,\n      \"category_name\": \"Art & Design\"\n    }\n  ]\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
